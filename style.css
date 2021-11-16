@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*edicions de text etc*/
+
+:root{
+    --ff-primary: Shippori Antique B1, sans-serif;
+
+    --fw-reg: 400;
+    --fw-bold: 900;
+
+    --color-background: #fff;
+    --color-text: #303030;
+    --color-accent: #16e0bd;
+
+    --font-sizeh1: 3rem;
+    --font-sizeh2: 2.25rem;
+    --font-sizeh3: 1.25rem;
+    --font-sizebody: 1rem;
+}
+
+@media (min-width: 800px) {
+    root: {
+        --font-sizeh1: 4.5rem;
+        --font-sizeh2: 3.75rem;
+        --font-sizeh3: 1.5rem;
+        --font-sizebody: 1.125rem;
+    }
+}
+
+/* Estils generals*/
+
+body{
+    background: var(--color-background);
+    color: var(--color-text);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--font-sizebody);
+    line-height: 1.6;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/* tipografia */
+
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+    margin: 0;
+}
+
+h1 { font-size: var(--font-sizeh1) };
+h2 { font-size: var(--font-sizeh2) }
+h3 { font-size: var(--font-sizeh3) }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
